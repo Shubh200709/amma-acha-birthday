@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+}
+
+
+
+h1{
+    color: yellow;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color:yellow;
+    
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.bodyimg{
+    display: flex;
+    justify-content:space-evenly;
+    /*flex-wrap: wrap;*/
+}
+
+.bodyimg:hover img{
+    opacity: 0.33;
+}
+
+a:link{
+    color:cornsilk ;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+a:visited{
+    color:lightcyan;
+}
